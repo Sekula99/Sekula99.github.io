@@ -1,0 +1,355 @@
+@media screen and (max-width: 1200px) {
+    .nav-link {
+        font-size: 24px;
+    }
+
+    #header .row h1 {
+        font-size: 38px;
+    }
+
+    #header .row p {
+        font-size: 20px;
+    }
+
+    .Blok h2 {
+        font-size: 36px;
+    }
+
+    .Blok p {
+        font-size: 25px;
+    }
+
+    #Footer a {
+        margin-left: 25%;
+    }
+
+    .slider .slides li .caption h3 {
+        font-size: 35px;
+    }
+
+    .slider .slides li .caption h5 {
+        font-size: 20px;
+    }
+
+    .slider .slides li .caption p {
+        font-size: 20px;
+    }
+
+    #gallery {
+        height: 2000px;
+    }
+
+    .FooterGal {
+        top: 2000px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .dropdown {
+        display: block;
+    }
+
+    #header .row h1 {
+        top: 20%;
+        font-size: 30px;
+    }
+
+    #header input[type=text] {
+        font-size: 15px;
+    }
+
+    #search {
+        top: 42%;
+    }
+
+    #header .row p {
+        top: 42%;
+        font-size: 15px;
+    }
+
+    .Blok h2 {
+        font-size: 28px;
+    }
+
+    .Blok p {
+        font-size: 20px;
+    }
+
+    #Footer a {
+        margin-left: 12%;
+        font-size: 17px;
+    }
+
+    #Footer li a {
+        font-size: 17px;
+    }
+
+    .slider .indicators .indicator-item {
+        width: 52px !important;
+        height: 52px !important;
+        margin-left: 30px !important;
+    }
+
+    #gallery {
+        height: 1800px;
+    }
+
+    .FooterGal {
+        top: 1800px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        display: none;
+    }
+
+    .galleryBlock {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .contact-form form {
+        padding-top: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #header .row h1 {
+        top: 13%;
+        font-size: 21px;
+    }
+
+    #header input[type=text] {
+        font-size: 14px;
+    }
+
+    #search {
+        top: 28%;
+    }
+
+    #header .row p {
+        top: 28%;
+        font-size: 14px;
+    }
+
+    #logo{
+        width:100px;
+    }
+
+    .Blok h2 {
+        font-size: 20px;
+    }
+
+    .Blok p {
+        font-size: 14px;
+    }
+
+    #Footer a {
+        margin-left:10%;
+        font-size: 14px;
+    }
+
+    #Footer ul {
+        margin-left:40px;      
+    }
+
+    #Footer li a {
+        font-size: 14px;
+    }
+
+    #joy{
+        width:70%;
+    }
+
+    #offImg {
+        width:80%;
+    }
+
+    .Blok{
+        padding-left:70px;
+    }
+
+    .slider .indicators .indicator-item {
+        width: 45px !important;
+        height: 45px !important;
+        margin-left: 25px !important;
+    }
+
+    #gallery {
+        height: 1600px;
+    }
+
+    #porto {
+        padding-left: 20%;
+    }
+
+    .FooterGal {
+        top: 1600px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        display: none;
+    }
+
+    .galleryBlock {
+        padding-left:6%;
+        padding-right:6%;
+    }
+
+    .contact-form form {
+        padding-top: 25%;
+    }
+
+    .slider .slides li .caption h3 {
+        font-size: 30px;
+    }
+
+    .slider .slides li .caption h5 {
+        font-size: 18px;
+    }
+
+    .slider .slides li .caption p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #header .row h1 {
+        top: 9%;
+        font-size: 12px;
+        left:10%;
+    }
+
+    #header input[type=text] {
+        font-size: 9px;
+    }
+
+    #search {
+        top: 16%;
+        left:56%;
+        width:30%;
+        font-size:2px;
+    }
+
+    search a i{
+        font-size:12px !important;
+    }
+    search .material-icons {
+        font-size: 12px !important;
+    }
+
+    #header .row p {
+        top: 20%;
+        left: 10%;
+        font-size: 9px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .Blok h2 {
+        font-size: 17px;
+    }
+
+    .Blok p {
+        font-size: 12px;
+        margin-left:6%;
+        width:90%;
+    }
+
+    #Hardware{
+        padding-right:0px;
+    }
+
+    #Footer a {
+        margin-left: 1%;
+        font-size: 11px;
+    }
+
+    #Footer ul {
+        margin-left: 10px;
+    }
+
+    #Footer li a {
+        font-size: 11px;
+    }
+
+    #joy {
+        width: 70%;
+    }
+
+    #offImg {
+        width: 80%;
+        margin-left:10%;
+    }
+
+    .Blok {
+        padding-left:0px;
+        text-align:center;
+    }
+
+    #stm .img-fluid{
+        width:50% !important;
+    }
+
+    .slider .indicators .indicator-item {
+        width: 35px !important;
+        height: 35px !important;
+        margin-left: 12px !important;
+    }
+
+    #gallery {
+        height: 1400px;
+    }
+
+    #gamesGal img {
+        margin-left: 25%;       
+    }
+    .contact-form h3{
+        font-size:25px;
+    }
+
+
+    #porto {
+        padding-left: 0px;
+    }
+
+    .FooterGal {
+        top: 1400px;
+    }
+  
+    .galleryBlock {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .dropdown{
+        left:78%;
+    }
+
+    .dropdown a i{
+        font-size:28px;
+    }
+
+    .dropdown-menu .dropdown-item{
+        font-size:13px !important;
+    }
+
+    .contact-form form {
+        padding-top: 25%;
+    }
+
+    .slider .slides li .caption h3 {
+        font-size: 25px;
+    }
+
+    .slider .slides li .caption h5 {
+        font-size: 14px;
+    }
+
+    .slider .slides li .caption p {
+        font-size: 14px;
+    }
+
+}

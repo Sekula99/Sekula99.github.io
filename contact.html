@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valve Corporation</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Encode+Sans+Expanded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/query.css" />
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-image: linear-gradient(to left,#4C5454,black);">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            About us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                        <span class="sr-only">(current)</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div clss="container-fluid" id="contact">
+
+        <div class="row" id="logo">
+            <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+        </div>
+
+        <div class="dropdown">
+            <a class="btn btn-secondary " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="index.html">About us</a>
+                <a class="dropdown-item" href="games.html">Games</a>
+                <a class="dropdown-item" href="gallery.html">Gallery</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="container contact-form">
+            <form method="post" action="">
+                <h3>Send us a message</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>                     
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="row FooterC" id="Footer">
+            <ul>
+                <li><a href="index.html">About us</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://davidispit.netlify.com/css.scss">SASS <i class="fab fa-sass"></i></a></li>
+                <li><a href="https://davidispit.netlify.com/rss.xml">RSS <i class="fas fa-rss-square"></i></a></li>
+                <li><a href="https://davidispit.netlify.com/sitemap.xml">Sitemap <i class="fas fa-sitemap"></i></a></li>
+                <li><a href="https://davidispit.netlify.com/query.scss">Responsive <i class="fas fa-mobile-alt"></i></a></li>
+            </ul>
+            <a href="author.html"><p>Creator of this website: David Sekulić</p><p>Find out more</p></a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--JS-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+
+    <script src="node_modules/materialize-css/extras/noUiSlider/nouislider.min.js"></script>
+
+    <script src="js/my.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Valve Corporation</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans|Encode+Sans+Expanded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/query.css" />
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
+
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/extras/noUiSlider/nouislider.css" />
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-image: linear-gradient(to left,#4C5454,black);">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            About us
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dropdown">
+        <a class="btn btn-secondary " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <i class="fas fa-bars"></i>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="index.html">About us</a>
+            <a class="dropdown-item" href="games.html">Games</a>
+            <a class="dropdown-item" href="gallery.html">Gallery</a>
+            <a class="dropdown-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div clss="container-fluid">
+
+        <div class="row" id="logo">
+            <a href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+        </div>
+
+        <div class="row" id="header">
+            <div class="row" id="video-bg">
+                <video autoplay muted loop id="myVideo">
+                    <source src="video/bg-video.webm" type="video/webm">
+                </video>
+            </div>
+
+            <div class="row">
+                <h1>At Valve we make games, Steam, and hardware.</h1>
+                <p>Join us. We're seeking collaborators who are the best at what they do. Opportunities at Valve run broad, we're always hiring for all positions.</p>
+
+                <div id="search">
+                    <div class="input-field col-sm-12">
+                        <input type="text" id="autocomplete-input" class="autocomplete" placeholder="Search Jobs">
+                    </div>
+                    <a href=""><i class="material-icons">search</i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Blok" id="Platform">
+            <div class="col-12">
+                <h2>Our platform connects players with the world's greatest entertainment.</h2>
+            </div>
+            <div class="col-12 col-sm-7 col-md-7 col-lg-7">
+                <p>We created Steam in 2003 to serve as a digital content distribution channel, before app stores existed. It's since grown and evolved into a platform for thousands of creators and publishers to deliver content and establish direct relationships with their customers. The Steam Community enables millions of players to do likewise, sharing entertainment and ideas, and making friends.</p>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-2" id="stm">
+                <a href=""><img src="img/steam.png" class="img-fluid" alt=""></a>
+            </div>
+
+        </div>
+
+        <div class="row Blok" id="Hardware">
+            <div class="col-12">
+                <h2>Our hardware is a happiness delivery vehicle.</h2>
+            </div>
+            <div class="col-md-4 col-lg-3" id="joy">
+                <img src="img/controller.png" class="img-fluid" alt="steam controller">
+            </div>
+            <div class="col-12 col-md-12 col-lg-7">
+                <p>We make consumer electronic devices that improve gaming on the PC. Things like the Steam Controller and the Steam Link. We invented the VR technologies that power the Vive, an interactive VR system brought to market in partnership with HTC. We follow the results of this work all the way through the manufacturing process to create products people are sure to enjoy.</p>
+            </div>
+        </div>
+
+        <div class="row Blok" id="We">
+            <div class="col-12">
+                <h2>We're just getting started.</h2>
+            </div>
+            <div class="col-md 12 col-lg-5" id="offImg">
+                <img src="img/office.jpg" class="img-fluid" alt="steam controller">
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <p>We make all of this stuff collaboratively in Bellevue, Washington, where we combine and talent of a world-class company with the ethos of a small startup. With an engaged and vocal community of partners and players, our products and our company will continue to change and grow in ways we may never have predicted. Join us, and help inform what's next.</p>
+            </div>
+        </div>
+
+
+        <div class="row FooterIndex" id="Footer">
+            <ul>
+                <li><a href="index.html">About us</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://davidispit.netlify.com/css.scss">SASS <i class="fab fa-sass"></i></a></li>
+                <li><a href="https://davidispit.netlify.com/rss.xml">RSS <i class="fas fa-rss-square"></i></a></li>
+                <li><a href="https://davidispit.netlify.com/sitemap.xml">Sitemap <i class="fas fa-sitemap"></i></a></li>
+                <li><a href="https://davidispit.netlify.com/query.scss">Responsive <i class="fas fa-mobile-alt"></i></a></li>
+            </ul>
+            <a href="author.html"><p>Website author: David Sekulić</p><p>Find out more</p></a>
+        </div>
+
+    </div>
+
+
+    <!--JS-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+
+    <script src="node_modules/materialize-css/extras/noUiSlider/nouislider.min.js"></script>
+
+    <script src="js/my.js"></script>
+
+</body>
+</html>

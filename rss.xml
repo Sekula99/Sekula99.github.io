@@ -1,0 +1,14 @@
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>About us</title>
+			<description>Everything you need to know about Valve Coorporation.</description>
+			<link>https://davidispit.netlify.com</link>
+		</item>
+    <item>
+      <title>Games</title>
+      <description>Browse and learn more about our games!</description>
+      <link>https://davidispit.netlify.com/games.html</link>
+    </item>
+  </channel>
+</rss>
