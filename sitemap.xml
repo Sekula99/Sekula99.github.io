@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://davidispit.netlify.com/</loc>
-    <lastmod>2019-06-26T17:06:28+00:00</lastmod>
-    <priority>1.0</priority>
-  </url> 
-  <url>
-    <loc>https://davidispit.netlify.com/games.html</loc>
-    <lastmod>2019-06-26T17:06:28+00:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://davidispit.netlify.com/gallery.html</loc>
-    <lastmod>2019-06-26T17:06:28+00:00</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://davidispit.netlify.com/contact.html</loc>
-    <lastmod>2019-06-26T17:06:28+00:00</lastmod>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://davidispit.netlify.com/author.html</loc>
-    <lastmod>2019-06-26T17:06:28+00:00</lastmod>
-    <priority>0.2</priority>
-  </url>
+	<url>
+		<loc>http://www.davidskola.dx.am/</loc>
+		<lastmod>2018-12-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://www.davidskola.dx.am/galerija.html</loc>
+		<lastmod>2018-12-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.davidskola.dx.am/autor.html</loc>
+		<lastmod>2018-12-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.davidskola.dx.am/kontakt.html</loc>
+		<lastmod>2018-12-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
+	</url>
+
 </urlset>
